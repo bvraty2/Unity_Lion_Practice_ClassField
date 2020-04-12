@@ -4,7 +4,7 @@ public class Enemy : MonoBehaviour
 { /// <summary>
    /// 怪物的血量
    /// </summary>
-   [Header("血量"), Range(50, 100)]
+   [Header("血量"), Range(50, 500)]
     [Tooltip("怪物的血量")]
     public int hp  ;
 
